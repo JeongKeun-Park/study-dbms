@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="ExecutionPlan/oracle_thin">
+		<column name="Operation" visible="true" order="0" width="253"/>
+		<column name="Object" visible="true" order="1" width="100"/>
+		<column name="Optimizer" visible="true" order="2" width="100"/>
+		<column name="Cost" visible="true" order="3" width="100"/>
+		<column name="Cardinality" visible="true" order="4" width="100"/>
+		<column name="Bytes" visible="true" order="5" width="100"/>
+	</item>
+	<item id="NodeList/DBNProjectDatabases/DBNBookmarkFolder/DBNDiagramFolder/DBNResource">
+		<column name="이름" visible="true" order="0" width="107"/>
+		<column name="경로" visible="true" order="1" width="121"/>
+		<column name="크기" visible="true" order="2" width="100"/>
+		<column name="최종 수정" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="설명" visible="true" order="1" width="100"/>
+		<column name="Origin" visible="true" order="2" width="100"/>
+		<column name="드라이버 유형" visible="true" order="3" width="109"/>
+	</item>
+	<item id="NodeList/OracleQueue">
+		<column name="Name" visible="true" order="0" width="100"/>
+		<column name="Queue Table" visible="true" order="1" width="102"/>
+		<column name="QId" visible="true" order="2" width="100"/>
+		<column name="Queue Type" visible="true" order="3" width="100"/>
+		<column name="Max Retries" visible="true" order="4" width="100"/>
+		<column name="Retry Delay" visible="true" order="5" width="100"/>
+		<column name="Enqueue Enabled" visible="true" order="6" width="134"/>
+		<column name="Dequeue Enabled" visible="true" order="7" width="136"/>
+		<column name="Retention Name" visible="true" order="8" width="125"/>
+		<column name="User Comment" visible="true" order="9" width="116"/>
+		<column name="Network Name" visible="true" order="10" width="116"/>
+	</item>
+	<item id="NodeList/OracleSchema">
+		<column name="Name" visible="true" order="0" width="155"/>
+	</item>
+	<item id="NodeList/OracleSequence">
+		<column name="Sequence Name" visible="true" order="0" width="167"/>
+		<column name="Value" visible="true" order="1" width="100"/>
+		<column name="Min Value" visible="true" order="2" width="100"/>
+		<column name="Max Value" visible="true" order="3" width="265"/>
+		<column name="Increment" visible="true" order="4" width="100"/>
+		<column name="Cache" visible="true" order="5" width="100"/>
+		<column name="Cycle" visible="true" order="6" width="100"/>
+		<column name="Ordered" visible="true" order="7" width="100"/>
+	</item>
+	<item id="NodeList/OracleTable">
+		<column name="Name" visible="true" order="0" width="153"/>
+		<column name="Created" visible="true" order="1" width="159"/>
+		<column name="Last Changed" visible="true" order="2" width="159"/>
+		<column name="Stat Row Count" visible="true" order="3" width="121"/>
+		<column name="Tablespace" visible="true" order="4" width="100"/>
+		<column name="Comment" visible="true" order="5" width="100"/>
+	</item>
+	<item id="NodeList/OracleTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="171"/>
+		<column name="#" visible="true" order="1" width="100"/>
+		<column name="Type" visible="true" order="2" width="131"/>
+		<column name="Type Mod" visible="true" order="3" width="100"/>
+		<column name="Not Null" visible="true" order="4" width="100"/>
+		<column name="디폴트" visible="true" order="5" width="100"/>
+		<column name="Comment" visible="true" order="6" width="100"/>
+	</item>
+	<item id="NodeList/OracleView">
+		<column name="View Name" visible="true" order="0" width="100"/>
+		<column name="Created" visible="true" order="1" width="100"/>
+		<column name="Last Changed" visible="true" order="2" width="107"/>
+		<column name="Comment" visible="true" order="3" width="100"/>
+	</item>
+	<item id="PrefPageConfirmationsEditor">
+		<column name="Confirmation" visible="true" order="0" width="249"/>
+		<column name="Show dialog" visible="true" order="1" width="141"/>
+		<column name="Group" visible="true" order="2" width="173"/>
+	</item>
+	<item id="SchemaSelector">
+		<column name="Name" visible="true" order="0" width="155"/>
+	</item>
+	<item id="Suggestion/NodeList/OracleTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="171"/>
+		<column name="#" visible="true" order="1" width="33"/>
+		<column name="Type" visible="true" order="2" width="131"/>
+		<column name="Type Mod" visible="false" order="3" width="100"/>
+		<column name="Not Null" visible="true" order="3" width="72"/>
+		<column name="디폴트" visible="true" order="4" width="80"/>
+		<column name="Comment" visible="true" order="5" width="81"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="132"/>
+		<column name="Time" visible="true" order="1" width="208"/>
+		<column name="Info" visible="true" order="2" width="79"/>
+		<column name="Folder" visible="true" order="3" width="95"/>
+	</item>
+	<item id="sqlFilterValueEditPopup">
+		<column name="Value" visible="true" order="0" width="71"/>
+		<column name="Count" visible="true" order="1" width="53"/>
+	</item>
+</items>
